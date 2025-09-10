@@ -9,7 +9,7 @@ authors: Yilin Guan, Wenyue Hua, Qingfeng Lan, Fei Sun, Dujian Ding, Devang Acha
 paperurl: [https://arxiv.org/abs/xxxx.xxxxx](https://arxiv.org/abs/2509.01920)
 code: https://github.com/guanyilin428/Dynamic-Speculative-Planning
 # pdf: /files/dsp_iclr25.pdf
-image: /images/publications/dsp.png
+image: /images/dsp.png
 # excerpt: ""
 ---
 
