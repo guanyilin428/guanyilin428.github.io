@@ -19,7 +19,7 @@
     {% if post.collection == 'publications' and teaser %}
       <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
         <div style="flex-shrink: 0; margin-right: 25px; width: 250px;">
-          <img src="{{ teaser | prepend: '/images/' }}" alt="" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <img src="{% if teaser contains "://" %}{{ teaser }}{% else %}{{ teaser | prepend: "/images/" | prepend: base_path }}{% endif %}" alt="" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         </div>
         <div style="flex: 1;">
     {% elsif include.type == "grid" and teaser %}
