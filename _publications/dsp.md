@@ -7,7 +7,7 @@ authors: "Yilin Guan, Wenyue Hua, Qingfeng Lan, Fei Sun, Dujian Ding, Devang Ach
 venue: "arXiv preprint"
 paperurl: "https://arxiv.org/abs/2509.01920"
 code: "https://github.com/guanyilin428/Dynamic-Speculative-Planning"
-teaser: "/images/dsp.png"     # 建议放到 /images/publications/dsp.png 并改成对应路径
+teaser: "dsp.png"     # 建议放到 /images/publications/dsp.png 并改成对应路径
 share: false
 comments: false
 # excerpt: "一句话摘要（可选）"
