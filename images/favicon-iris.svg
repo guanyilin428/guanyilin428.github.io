@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Iris</title>
+  <!-- Stylized iris: three upright petals (standards) + center -->
+  <path d="M16 2 L18 12 L16 30 L14 12 Z" fill="#5B4BB4"/>
+  <path d="M16 6 L26 14 L22 28 L16 24 L10 28 L6 14 Z" fill="#7B6BD4"/>
+  <ellipse cx="16" cy="16" rx="6" ry="8" fill="#5B4BB4"/>
+  <ellipse cx="16" cy="15" rx="2" ry="3" fill="#2d2640"/>
+</svg>
